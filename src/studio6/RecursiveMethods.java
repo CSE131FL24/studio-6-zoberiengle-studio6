@@ -17,37 +17,7 @@ public class RecursiveMethods {
 			return 0;
 		
 	}
-
-	/**
-	 * This method uses recursion to compute the greatest common divisor
-	 * for the two input values
-	 * 
-	 * @param p first operand
-	 * @param q second operand
-	 * @return greatest common divisor of p and q
-	 */
-	public static int gcd(int p, int q) {
-		
-			// FIXME compute the gcd of p and q using recursion
-			return 0;
-		
-	}
-
 	
-
-	/**
-	 * This method uses recursion to create a reverse of the given array
-	 * 
-	 * @param array the array to create a reverse of, not to be mutated
-	 * @return an array with the same data as the input but it reverse order
-	 */
-	public static int[] toReversed(int[] array) {
-		
-			// FIXME create a helper method that can recursively reverse the given array
-			return new int[0];
-		
-	}
-
 	/**
 	 * @param xCenter                       x-coordinate of the center of the circle
 	 *                                      at the current depth
@@ -61,6 +31,34 @@ public class RecursiveMethods {
 			double radiusMinimumDrawingThreshold) {
 		
 		// FIXME
+	}
+
+	/**
+	 * This method uses recursion to create a reverse of the given array
+	 * 
+	 * @param array the array to create a reverse of, not to be mutated
+	 * @return an array with the same data as the input but it reverse order
+	 */
+	public static int[] toReversed(int[] array) {
+		
+			// FIXME create a helper method that can recursively reverse the given array
+			return new int[0];
+		
+	}
+	
+	/**
+	 * This method uses recursion to compute the greatest common divisor
+	 * for the two input values
+	 * 
+	 * @param p first operand
+	 * @param q second operand
+	 * @return greatest common divisor of p and q
+	 */
+	public static int gcd(int p, int q) {
+		
+			// FIXME compute the gcd of p and q using recursion
+			return 0;
+		
 	}
 
 }

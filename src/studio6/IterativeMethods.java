@@ -21,20 +21,6 @@ public class IterativeMethods {
 	}
 
 	/**
-	 * @param p first operand
-	 * @param q second operand
-	 * @return greatest common divisor of p and q
-	 */
-	public static int gcd(int p, int q) {
-		while (q != 0) {
-			int temp = q;
-			q = p % q;
-			p = temp;
-		}
-		return p;
-	}
-
-	/**
 	 * @param array the array to create a reverse of, not to be mutated
 	 * @return an array with the same data as the input but it reverse order
 	 */
@@ -52,5 +38,19 @@ public class IterativeMethods {
 			}
 		}
 		return reversed;
+	}
+	
+	/**
+	 * @param p first operand
+	 * @param q second operand
+	 * @return greatest common divisor of p and q
+	 */
+	public static int gcd(int p, int q) {
+		while (q != 0) {
+			int temp = q;
+			q = p % q;
+			p = temp;
+		}
+		return p;
 	}
 }
